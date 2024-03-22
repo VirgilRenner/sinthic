@@ -1,0 +1,35 @@
+{
+  "name": "sinthic",
+  "version": "1.5.0",
+  "description": "Type-safe object streams with seamless support for backpressure, ending, and error handling",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirgilRenner/sinthic.git"
+  },
+  "keywords": [
+    "stream",
+    "promise",
+    "backpressure",
+    "voluptatem"
+  ],
+  "author": "TerrenceMann",
+  "license": "MIT",
+  "dependencies": {
+    "inventorecommodi": "^1.0.0",
+    "namet": "^1.0.0",
+    "ts-promise": "^0.1.5"
+  },
+  "typescript": {
+    "definition": "./ts-stream.d.ts"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.2",
+    "dts-generator": "poelstra/dts-generator#6c96dfba98a467d76071fa67666474f760dab64f",
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "source-map-support": "^0.2.10",
+    "typescript": "^1.5.0-beta"
+  }
+}
